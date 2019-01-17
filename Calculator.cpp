@@ -13,6 +13,17 @@ int main()
 		cout<<"Result: "<<a+b;
 		break;
 		
+		case '2': cout<<"Enter two numbers(larger first)\n";
+		cin>>a>>b;
+		cout<<"Result: "<<a-b;
+		break;
+		
+		case '3': cout<<"Enter two numbers\n";
+		cin>>a>>b;
+		cout<<"Result: "<<a*b;
+		break;
+		
+		
 		default: cout<<"Invalid Choice";
 		break;
 	}
