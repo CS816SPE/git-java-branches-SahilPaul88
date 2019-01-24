@@ -18,15 +18,13 @@ int main()
 		cout<<"Result: "<<a-b;
 		break;
 		
-<<<<<<< HEAD
-=======
+
 		case '3': cout<<"Enter two numbers\n";
 		cin>>a>>b;
 		cout<<"Result: "<<a*b;
 		break;
 		
-		
->>>>>>> multiplication
+
 		default: cout<<"Invalid Choice";
 		break;
 	}
